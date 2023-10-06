@@ -10,7 +10,6 @@ const Home = () => {
         <div className="sub-text">
           We are team of talented designers making websites with React
         </div>
-        {/* <button className="btn">Get Started</button> */}
         <button class="learn-more">
           <span class="circle" aria-hidden="true">
             <span class="icon arrow"></span>
