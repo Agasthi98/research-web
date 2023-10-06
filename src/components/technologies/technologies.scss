@@ -1,0 +1,19 @@
+.slider {
+  display: flex;
+  justify-content: center;
+  .splide {
+    //   height: 20vh;
+    width: 40%;
+    img {
+      height: 15vh;
+    }
+  }
+}
+
+.splide__arrow splide__arrow--prev {
+  left: -6rem !important;
+}
+
+.splide__arrow splide__arrow--next {
+  right: -6rem !important;
+}
