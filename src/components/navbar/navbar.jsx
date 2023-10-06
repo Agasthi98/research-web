@@ -1,7 +1,5 @@
 import React from "react";
 import "./navbar.scss";
-import Home from "../home/home";
-import Technologies from "../technologies/technologies";
 
 const Navbar = () => {
   return (
@@ -17,8 +15,7 @@ const Navbar = () => {
           <div className="nav-item">Contact</div>
         </div>
       </nav>
-      <Home />
-      <Technologies />
+      {/* <Home /> */}
     </>
   );
 };
