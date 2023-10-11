@@ -1,0 +1,35 @@
+.method-body {
+  .description {
+    margin-left: 5rem;
+    margin-top: 2rem;
+    font-size: 16px;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    align-items: center;
+    row-gap: 0.5rem;
+    margin-top: 1rem;
+    .item {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+      align-items: center;
+      .text-component {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .summary {
+    padding: 20px 30px 20px 70px;
+    text-align: justify;
+  }
+}
+
+.svg-inline--fa {
+  color: #1e3050 !important;
+  font-size: 25px !important;
+}

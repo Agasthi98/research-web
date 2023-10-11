@@ -6,6 +6,7 @@ import TimeLine from "../timeLine/timeLine";
 import Technologies from "../technologies/technologies";
 import PageLoader from "../../assets/loader/loader";
 import Domain from "../domain/domain";
+import Methodology from "../methodlogy/methodlogy";
 
 const Landing = () => {
   const [loading, setLoading] = useState(true);
@@ -32,9 +33,11 @@ const Landing = () => {
         <>
           <Nav />
           <Home />
-          <TimeLine />
-          <Technologies />
           <Domain />
+          <Methodology />
+          <Technologies />
+
+          <TimeLine />
         </>
       )}
     </>
