@@ -3,7 +3,12 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 3rem;
-  background-color: #37517e;
+  background-color: #1e3050;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  z-index: 100;
   .logo {
     color: white;
   }
