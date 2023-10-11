@@ -165,6 +165,8 @@ const Documents = () => {
           </div>
         </div>
 
+        <hr className="hr-line" />
+
         <div className="presentation-side">
           <div className="doc-title">Presentations</div>
           <div className="document-body">

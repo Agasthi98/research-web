@@ -1,6 +1,7 @@
 .doc-wrapper {
   margin-top: 1rem;
   background-color: #1e3050;
+  padding-bottom: 1.5rem;
 
   .doc-title {
     text-align: center;
@@ -97,4 +98,9 @@
 .view-btn:active {
   box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
   transform: translate(0.1em, 0.1em);
+}
+
+.hr-line {
+  margin-top: 2rem !important;
+  width: 30rem !important;
 }
