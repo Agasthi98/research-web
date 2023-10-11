@@ -7,6 +7,7 @@ import Technologies from "../technologies/technologies";
 import PageLoader from "../../assets/loader/loader";
 import Domain from "../domain/domain";
 import Methodology from "../methodlogy/methodlogy";
+import Documents from "../documents/documents";
 
 const Landing = () => {
   const [loading, setLoading] = useState(true);
@@ -38,6 +39,7 @@ const Landing = () => {
           <Technologies />
 
           <TimeLine />
+          <Documents />
         </>
       )}
     </>

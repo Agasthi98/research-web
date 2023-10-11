@@ -1,0 +1,98 @@
+.doc-wrapper {
+  margin-top: 1rem;
+  background-color: #1e3050;
+
+  .doc-title {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 3rem;
+  }
+  .document-body {
+    margin-top: 4rem;
+    .document-wrapper {
+      .doc-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 40vh;
+        align-items: center;
+        .row {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .document-name {
+            padding-top: 15px;
+            color: #ffff00;
+            font-size: 18px;
+            font-weight: 500;
+          }
+          .document-description {
+            padding: 15px 20px;
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+            width: 65%;
+          }
+          .submitted-date {
+            color: #ffff00;
+            font-weight: bold;
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.svg-inline--fa {
+  color: #fff !important;
+  font-size: 40px !important;
+}
+
+.view-btn {
+  position: relative;
+  font-size: 15px;
+  padding: 0.7em 1.4em;
+  background-color: #bf0426;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.5em;
+  color: #dedede;
+  box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+  //   left: 1.7rem;
+  //   bottom: 2rem;
+  width: 5rem;
+  margin-top: 1rem;
+}
+
+.view-btn::before {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(33, 33, 33, 1) 0%,
+    rgba(33, 33, 33, 1) 50%,
+    rgba(150, 4, 31, 1) 50%,
+    rgba(191, 4, 38, 1) 60%
+  );
+  border-radius: 0 0 0.5em 0;
+  box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.view-btn:hover::before {
+  width: 1.6em;
+  height: 1.6em;
+}
+
+.view-btn:active {
+  box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+  transform: translate(0.1em, 0.1em);
+}
