@@ -1,8 +1,6 @@
 import React from "react";
 import "./methodlogy.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import { faCircleChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { FaChevronRight } from "react-icons/fa";
 
 function Methodology() {
   return (
@@ -15,32 +13,36 @@ function Methodology() {
         </div>
         <div className="items">
           <div className="item">
-            <FontAwesomeIcon icon={faCircleChevronRight} />
+            <FaChevronRight size={20} />
             <div className="text-component">
-              Fish Behaviour Optimization For Predictions And Intensive Caring
+              LoRa IoT Network Utilization Overview
+            </div>
+          </div>
+
+          <div className="item">
+            <FaChevronRight size={20} />
+
+            <div className="text-component">
+              Precision Sensing Utilization Overview
             </div>
           </div>
           <div className="item">
-            <FontAwesomeIcon icon={faCircleChevronRight} />
+            <FaChevronRight size={20} />
+
             <div className="text-component">
-              Fish Behaviour Optimization For Predictions And Intensive Caring
+              Machine Learning Utilization Overview
             </div>
           </div>
           <div className="item">
-            <FontAwesomeIcon icon={faCircleChevronRight} />
-            <div className="text-component">
-              Fish Behaviour Optimization For Predictions And Intensive Caring
-            </div>
-          </div>
-          <div className="item">
-            <FontAwesomeIcon icon={faCircleChevronRight} />
-            <div className="text-component">
-              Fish Behaviour Optimization For Predictions And Intensive Caring
+            <FaChevronRight size={20} />
+
+            <div className="text-component-last">
+              System Architecture Diagram
             </div>
           </div>
         </div>
 
-        <div className="summary">
+        {/* <div className="summary">
           "FishAnalyzer" is a mobile application used to automate the manual
           workarounds which exists in the existing fish industry. In the first
           phase. A more productive, smart caring solution for ornamental fish
@@ -52,7 +54,7 @@ function Methodology() {
           watercolor in fish tanks. Last but not the least, it also has the
           ability to predict the Food Consumption and maintain a Smart
           Filtration Maintenance System.
-        </div>
+        </div> */}
       </div>
     </div>
   );

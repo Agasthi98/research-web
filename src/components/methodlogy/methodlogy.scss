@@ -1,8 +1,10 @@
 .method-body {
   .description {
     margin-left: 5rem;
-    margin-top: 2rem;
-    font-size: 16px;
+    margin-top: 4rem;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
   }
 
   .items {
@@ -18,7 +20,8 @@
       gap: 0.5rem;
       align-items: center;
       .text-component {
-        font-size: 15px;
+        font-size: 18px;
+        font-weight: 500;
       }
     }
   }
@@ -32,4 +35,9 @@
 .svg-inline--fa {
   color: #1e3050 !important;
   font-size: 25px !important;
+}
+.text-component-last {
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 77px;
 }
