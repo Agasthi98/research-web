@@ -8,16 +8,18 @@
   .left-box {
     width: 50%;
     position: relative;
-    /* margin-left: 10rem; */
+    margin-left: 10rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     .text {
+      border-left: 7px solid red;
       padding: 0 40px;
       font-weight: 500;
       top: 10rem;
       font-size: 2rem;
+      max-width: 80%;
     }
     .sub-text {
       padding: 0 40px;
@@ -46,7 +48,7 @@
     button.learn-more {
       width: 12rem;
       height: auto;
-      bottom: 6.5rem;
+      bottom: 18rem;
       margin-left: 2rem;
       /* display: flex; */
       position: absolute;
@@ -59,7 +61,7 @@
       margin: 0;
       width: 3rem;
       height: 3rem;
-      background: #282936;
+      background: #1e3050;
       border-radius: 1.625rem;
     }
 
@@ -87,8 +89,8 @@
       right: 0.0625rem;
       width: 0.625rem;
       height: 0.625rem;
-      border-top: 0.125rem solid #fff;
-      border-right: 0.125rem solid #fff;
+      border-top: 0.125rem solid white;
+      border-right: 0.125rem solid white;
       transform: rotate(45deg);
     }
 

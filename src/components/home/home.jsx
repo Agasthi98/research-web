@@ -1,11 +1,15 @@
 import React from "react";
 import companyLogo from "../../assets/img/hero-img.png";
+import plant from "../../assets/img/health.png";
 import "./home.scss";
 
 const Home = () => {
   return (
     <div className="home">
       <div className="left-box">
+        {/* <div className="image-logo">
+          <img src={plant} alt="BigCo Inc. logo" />
+        </div> */}
         <div className="text">
           PLANT HEALTH ASSESSMENT BASED ON PRECISION IOT LEAF PHYTOMETRY
           TECHNIQUES
@@ -21,7 +25,7 @@ const Home = () => {
         </button>
       </div>
       <div className="right-box">
-        <img src={companyLogo} />
+        <img src={plant} />
       </div>
     </div>
   );
