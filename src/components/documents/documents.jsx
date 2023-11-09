@@ -7,6 +7,13 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Documents = () => {
+  const handler = () => {
+    const link =
+      "https://drive.google.com/drive/folders/1RGWq-0nyS3fXePhQYmXpmTEdQEV2UsyY";
+    window.open(link, "_blank");
+    console.log(link);
+  };
+
   return (
     <>
       <div className="doc-wrapper">
@@ -25,7 +32,8 @@ const Documents = () => {
                 <div className="submitted-date">
                   Group - Submitted on 28/12/2021
                 </div>
-                <button className="view-btn">
+
+                <button className="view-btn" onClick={handler}>
                   <b>View</b>
                 </button>
               </div>

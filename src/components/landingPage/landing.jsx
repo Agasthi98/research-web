@@ -9,6 +9,7 @@ import Domain from "../domain/domain";
 import Methodology from "../methodlogy/methodlogy";
 import Documents from "../documents/documents";
 import Supervisor from "../supervisors/supervisor";
+import Footer from "../Footer/Footer";
 
 const Landing = () => {
   const [loading, setLoading] = useState(true);
@@ -42,6 +43,7 @@ const Landing = () => {
           <TimeLine />
           <Documents />
           <Supervisor />
+          <Footer />
         </>
       )}
     </>
