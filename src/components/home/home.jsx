@@ -1,9 +1,14 @@
 import React from "react";
-import companyLogo from "../../assets/img/hero-img.png";
 import plant from "../../assets/img/health.png";
 import "./home.scss";
 
 const Home = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 1100,
+      behavior: "smooth",
+    });
+  };
   return (
     <div className="home">
       <div className="left-box">
@@ -17,7 +22,7 @@ const Home = () => {
         {/* <div className="sub-text">
           We are team of talented designers making websites with React
         </div> */}
-        <button class="learn-more">
+        <button class="learn-more" onClick={scrollToTop}>
           <span class="circle" aria-hidden="true">
             <span class="icon arrow"></span>
           </span>
