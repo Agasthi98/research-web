@@ -1,12 +1,10 @@
 .domain-body {
-  background-color: #1e3050;
-  margin-top: 5rem;
+  padding-bottom: 15rem;
   .topic-1 {
     text-align: center;
-    font-size: 23px;
+    font-size: 35px;
     font-weight: 500;
-    color: white;
-    padding-top: 6rem;
+    padding-bottom: 3rem;
   }
 
   .domain-wrapper {
@@ -20,36 +18,39 @@
     .d-left-side {
       display: flex;
       flex-direction: column;
-      color: white;
-      max-width: 30rem;
-      min-width: 30rem;
+      max-width: 37rem;
+      min-width: 37rem;
 
       .icon-left {
         display: flex;
         flex-direction: row;
         gap: 1rem;
         align-items: center;
+        margin-top: 2rem;
       }
 
       .text-left {
-        padding: 20px 28px 20px 40px;
+        padding: 20px 28px 20px 72px;
         font-size: 15px;
         height: 20vh;
         min-height: 20vh;
+        font-weight: 500;
+        margin-bottom: 5rem;
       }
       .view-btn {
         position: relative;
         font-size: 15px;
         padding: 0.7em 1.4em;
-        background-color: #bf0426;
+        background-color: #ff0000;
         text-decoration: none;
         border: none;
         border-radius: 0.5em;
-        color: #dedede;
+        color: white;
         box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
-        left: 1.7rem;
+        left: 4.5rem;
         bottom: 2rem;
         width: 5rem;
+        top: 2px;
       }
 
       .view-btn::before {
@@ -86,36 +87,39 @@
   .d-right-side {
     display: flex;
     flex-direction: column;
-    color: white;
-    max-width: 30rem;
-    min-width: 30rem;
+    max-width: 37rem;
+    min-width: 37rem;
 
     .icon-right {
       display: flex;
       flex-direction: row;
       gap: 1rem;
       align-items: center;
+      margin-top: 2rem;
     }
 
     .text-right {
-      padding: 20px 28px 20px 40px;
+      padding: 20px 28px 20px 70px;
       font-size: 15px;
       height: 20vh;
       min-height: 20vh;
+      margin-bottom: 5rem;
+      font-weight: 500;
     }
     .view-btn {
       position: relative;
       font-size: 15px;
       padding: 0.7em 1.4em;
-      background-color: #bf0426;
+      background-color: #ff0000;
       text-decoration: none;
       border: none;
       border-radius: 0.5em;
-      color: #dedede;
+      color: white;
       box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
-      left: 1.7rem;
+      left: 4.3rem;
       bottom: 2rem;
       width: 5rem;
+      top: 0;
     }
 
     .view-btn::before {
@@ -161,4 +165,24 @@
 
 .icon-wrapper {
   font-size: 30px !important;
+}
+
+.view-btn-left-down {
+  position: relative;
+  font-size: 15px;
+  padding: 0.7em 1.4em;
+  background-color: #ff0000;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+  left: 4.5rem;
+  bottom: 2rem;
+  width: 5rem;
+  top: 12rem;
+}
+.objective-group {
+  font-size: 17px;
+  font-weight: 500;
 }

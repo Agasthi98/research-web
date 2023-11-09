@@ -6,11 +6,12 @@ import LandingPage from "./components/landingPage/landing";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage />}></Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <LandingPage />
     </>
   );
 }

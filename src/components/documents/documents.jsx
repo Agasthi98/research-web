@@ -15,7 +15,7 @@ const Documents = () => {
           <div className="document-wrapper">
             <div className="doc-items">
               <div className="row">
-                <FontAwesomeIcon icon={faFileLines} beat />
+                <FontAwesomeIcon icon={faFileLines} />
                 <div className="document-name">TOPIC ASSESSMENT</div>
                 <div className="document-description">
                   Take a look at the Topic Assessment Form submitted at the
@@ -30,7 +30,7 @@ const Documents = () => {
                 </button>
               </div>
               <div className="row">
-                <FontAwesomeIcon icon={faFileLines} beat />
+                <FontAwesomeIcon icon={faFileLines} />
                 <div className="document-name">PROJECT CHARTER</div>
                 <div className="document-description">
                   Take a look at the Topic Assessment Form submitted at the
@@ -46,7 +46,7 @@ const Documents = () => {
               </div>
 
               <div className="row">
-                <FontAwesomeIcon icon={faFileLines} beat />
+                <FontAwesomeIcon icon={faFileLines} />
                 <div className="document-name">PROJECT CHARTER</div>
                 <div className="document-description">
                   Take a look at the Topic Assessment Form submitted at the
@@ -66,7 +66,7 @@ const Documents = () => {
           <div className="document-wrapper">
             <div className="doc-items">
               <div className="row">
-                <FontAwesomeIcon icon={faFileLines} beat />
+                <FontAwesomeIcon icon={faFileLines} />
                 <div className="document-name">PROJECT PROPOSAL</div>
                 <div className="document-description">
                   Take a look at the Topic Assessment Form submitted at the
@@ -81,7 +81,7 @@ const Documents = () => {
                 </button>
               </div>
               <div className="row">
-                <FontAwesomeIcon icon={faFileLines} beat />
+                <FontAwesomeIcon icon={faFileLines} />
                 <div className="document-name">PROJECT PROPOSAL</div>
                 <div className="document-description">
                   Take a look at the Topic Assessment Form submitted at the
@@ -96,7 +96,7 @@ const Documents = () => {
                 </button>
               </div>
               <div className="row">
-                <FontAwesomeIcon icon={faFileLines} beat />
+                <FontAwesomeIcon icon={faFileLines} />
                 <div className="document-name">STATUS DOCUMENT I</div>
                 <div className="document-description">
                   Take a look at the Topic Assessment Form submitted at the
@@ -116,7 +116,7 @@ const Documents = () => {
           <div className="document-wrapper">
             <div className="doc-items">
               <div className="row">
-                <FontAwesomeIcon icon={faFileLines} beat />
+                <FontAwesomeIcon icon={faFileLines} />
                 <div className="document-name">STATUS DOCUMENT II</div>
                 <div className="document-description">
                   Take a look at the Topic Assessment Form submitted at the
@@ -132,7 +132,7 @@ const Documents = () => {
               </div>
 
               <div className="row">
-                <FontAwesomeIcon icon={faFileLines} beat />
+                <FontAwesomeIcon icon={faFileLines} />
                 <div className="document-name">STATUS DOCUMENT II</div>
                 <div className="document-description">
                   Take a look at the Topic Assessment Form submitted at the
@@ -147,7 +147,7 @@ const Documents = () => {
                 </button>
               </div>
               <div className="row">
-                <FontAwesomeIcon icon={faFileLines} beat />
+                <FontAwesomeIcon icon={faFileLines} />
                 <div className="document-name">RESEARCH PAPER</div>
                 <div className="document-description">
                   Take a look at the Topic Assessment Form submitted at the
@@ -173,7 +173,7 @@ const Documents = () => {
             <div className="document-wrapper">
               <div className="doc-items">
                 <div className="row">
-                  <FontAwesomeIcon icon={faFilePowerpoint} beat />
+                  <FontAwesomeIcon icon={faFilePowerpoint} />
                   <div className="document-name">
                     PROJECT PROPOSAL PRESENTATION
                   </div>
@@ -190,7 +190,7 @@ const Documents = () => {
                   </button>
                 </div>
                 <div className="row">
-                  <FontAwesomeIcon icon={faFilePowerpoint} beat />
+                  <FontAwesomeIcon icon={faFilePowerpoint} />
                   <div className="document-name">PROGRESS PRESENTATION - I</div>
                   <div className="document-description">
                     Take a look at the Topic Assessment Form submitted at the
@@ -205,7 +205,7 @@ const Documents = () => {
                   </button>
                 </div>
                 <div className="row">
-                  <FontAwesomeIcon icon={faFilePowerpoint} beat />
+                  <FontAwesomeIcon icon={faFilePowerpoint} />
                   <div className="document-name">
                     PROGRESS PRESENTATION - II
                   </div>

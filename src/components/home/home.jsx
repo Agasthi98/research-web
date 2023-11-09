@@ -6,10 +6,13 @@ const Home = () => {
   return (
     <div className="home">
       <div className="left-box">
-        <div className="text">Better Solutions For Your Business</div>
-        <div className="sub-text">
-          We are team of talented designers making websites with React
+        <div className="text">
+          PLANT HEALTH ASSESSMENT BASED ON PRECISION IOT LEAF PHYTOMETRY
+          TECHNIQUES
         </div>
+        {/* <div className="sub-text">
+          We are team of talented designers making websites with React
+        </div> */}
         <button class="learn-more">
           <span class="circle" aria-hidden="true">
             <span class="icon arrow"></span>
