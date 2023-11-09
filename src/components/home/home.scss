@@ -135,3 +135,13 @@
     }
   }
 }
+
+.image-home {
+  animation: beat 0.5s infinite alternate;
+}
+
+@keyframes beat {
+  to {
+    transform: scale(1.4);
+  }
+}

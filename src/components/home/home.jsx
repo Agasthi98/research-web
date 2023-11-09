@@ -30,7 +30,7 @@ const Home = () => {
         </button>
       </div>
       <div className="right-box">
-        <img src={plant} />
+        <img className="image-home" src={plant} />
       </div>
     </div>
   );
