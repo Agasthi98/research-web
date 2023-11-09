@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import "./BackToTop.scss"; // Import your CSS file for styling
 import { FaArrowAltCircleUp } from "react-icons/fa";
 
 const BackToTopButton = () => {
