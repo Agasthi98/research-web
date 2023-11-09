@@ -17,7 +17,9 @@ const Documents = () => {
   return (
     <>
       <div className="doc-wrapper">
-        <div className="doc-title">Documents</div>
+        <div className="doc-title" style={{ color: "#1e3050" }}>
+          Documents
+        </div>
         <div className="document-body">
           <div className="document-wrapper">
             <div className="doc-items">
@@ -176,7 +178,9 @@ const Documents = () => {
         <hr className="hr-line" />
 
         <div className="presentation-side">
-          <div className="doc-title">Presentations</div>
+          <div className="doc-title" style={{ color: "#1e3050" }}>
+            Presentations
+          </div>
           <div className="document-body">
             <div className="document-wrapper">
               <div className="doc-items">

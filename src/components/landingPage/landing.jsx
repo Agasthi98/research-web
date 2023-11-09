@@ -14,6 +14,8 @@ import Footer from "../Footer/Footer";
 const Landing = () => {
   const [loading, setLoading] = useState(true);
 
+  const gg = window.pageYOffset;
+  console.log(gg);
   useEffect(() => {
     // Show the loader when the component mounts
     setLoading(true);
@@ -34,16 +36,38 @@ const Landing = () => {
         <PageLoader />
       ) : (
         <>
-          <Nav />
-          <Home />
-          <Domain />
-          <Methodology />
-          <Technologies />
+          <main id="home">
+            <Nav />
+            <section className="home">
+              <Home />
+            </section>
+            <section className="domain" id="domain">
+              {" "}
+              <Domain />
+            </section>
+            <section className="methodlogy" id="methodlogy">
+              {" "}
+              <Methodology />
+            </section>
+            <section className="technologies" id="technologies">
+              {" "}
+              <Technologies />
+            </section>
 
-          <TimeLine />
-          <Documents />
-          <Supervisor />
-          <Footer />
+            <section className="timeline" id="timeline">
+              {" "}
+              <TimeLine />
+            </section>
+            <section className="documents" id="documents">
+              {" "}
+              <Documents />
+            </section>
+            <section className="supervisor" id="supervisor">
+              {" "}
+              <Supervisor />
+            </section>
+            <Footer />
+          </main>
         </>
       )}
     </>

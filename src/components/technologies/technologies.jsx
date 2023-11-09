@@ -15,7 +15,9 @@ const Technologies = () => {
   return (
     <>
       <div className="body-tech">
-        <div className="title">Technologies</div>
+        <div className="title" style={{ color: "#1e3050" }}>
+          Technologies
+        </div>
         <div className="slider">
           <Splide
             className="splide"

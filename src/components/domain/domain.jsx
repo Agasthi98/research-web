@@ -8,7 +8,12 @@ const Domain = () => {
   return (
     <>
       <div className="domain-body">
-        <h1 className="topic-1">Our Domain</h1>
+        <div className="heading">
+          <h1 className="topic-1" style={{ color: "#1e3050" }}>
+            Our Domain
+          </h1>
+        </div>
+
         <div className="domain-wrapper">
           <div className="d-left-side">
             <div className="icon-left">

@@ -5,7 +5,9 @@ import { FaChevronRight } from "react-icons/fa";
 function Methodology() {
   return (
     <div className="method-body">
-      <div className="title">Methodlogy</div>
+      <div className="title" style={{ color: "#1e3050" }}>
+        Methodlogy
+      </div>
       <div className="method-wrapper">
         <div className="description">
           This proposed system mainly consist of four main components, which are

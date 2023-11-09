@@ -16,7 +16,9 @@ const supervisor = () => {
         <div className="title">Supervisor</div>
       </div>
       <div className="team-members">
-        <div className="title">Team Members</div>
+        <div className="title" style={{ color: "#1e3050" }}>
+          Team Members
+        </div>
         <div className="team-wrapper">
           <aside class="profile-card">
             <div class="mask-shadow"></div>

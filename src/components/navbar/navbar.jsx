@@ -1,18 +1,37 @@
 import React from "react";
+import { links } from "../navItem";
 import "./navbar.scss";
 
 const Navbar = () => {
+  const handleClick = (e) => {
+    e.preventDefault();
+    const target = e.target.getAttribute("href");
+    const location = document.querySelector(target).offsetTop;
+    console.log(location);
+
+    //decrease navbar height
+    window.scrollTo({
+      left: 0,
+      top: location - 72.3,
+    });
+  };
   return (
     <>
       <nav className="navbar">
         <h1 className="logo">Research | 2023</h1>
         <div className="nav-row">
-          <div className="nav-item">Home</div>
-          <div className="nav-item">About</div>
-          <div className="nav-item">TimeLine</div>
-          <div className="nav-item">Documents</div>
-          <div className="nav-item">Team</div>
-          <div className="nav-item">Contact</div>
+          {links.map((link) => {
+            return (
+              <a
+                className="link-tag"
+                onClick={handleClick}
+                href={link.url}
+                key={link.id}
+              >
+                {link.text}
+              </a>
+            );
+          })}
         </div>
       </nav>
       {/* <Home /> */}

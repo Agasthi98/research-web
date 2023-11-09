@@ -47,7 +47,9 @@ const Timeline = () => {
   ];
   return (
     <>
-      <div className="title">Time Line</div>
+      <div className="title" style={{ color: "#1e3050" }}>
+        Time Line
+      </div>
 
       <div className="wrapper">
         <div className="timeLine">
