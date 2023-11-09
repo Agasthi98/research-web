@@ -7,7 +7,6 @@ const Navbar = () => {
     e.preventDefault();
     const target = e.target.getAttribute("href");
     const location = document.querySelector(target).offsetTop;
-    console.log(location);
 
     //decrease navbar height
     window.scrollTo({
