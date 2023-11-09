@@ -1,9 +1,19 @@
-import React, { useState } from "react";
-import "./BackToTop.scss"; // Import your CSS file for styling
+import React, { useState, useEffect } from "react";
+// import "./BackToTop.scss"; // Import your CSS file for styling
+import { FaArrowAltCircleUp } from "react-icons/fa";
 
-const BackToTopButton = (position) => {
+const BackToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
 
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 1000) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    });
+  }, []);
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -11,21 +21,22 @@ const BackToTopButton = (position) => {
     });
   };
 
-  const toggleVisibility = () => {
-    if (position > 300) {
-      setIsVisible(true);
-    } else {
-      setIsVisible(false);
-    }
-  };
-
-  window.addEventListener("scroll", toggleVisibility);
-
   return (
     <div className="back-to-top">
       {isVisible && (
         <div onClick={scrollToTop}>
-          <i className="fas fa-arrow-up"></i>
+          <FaArrowAltCircleUp
+            style={{
+              position: "fixed",
+              bottom: "50px",
+              right: "50px",
+              height: "40px",
+              width: "40px",
+              cursor: "pointer",
+              color: "#1e3050",
+            }}
+            size={40}
+          />
         </div>
       )}
     </div>

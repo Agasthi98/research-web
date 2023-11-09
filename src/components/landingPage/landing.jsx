@@ -10,12 +10,11 @@ import Methodology from "../methodlogy/methodlogy";
 import Documents from "../documents/documents";
 import Supervisor from "../supervisors/supervisor";
 import Footer from "../Footer/Footer";
+import BackToTop from "../BackToTop/BackToTop";
 
 const Landing = () => {
   const [loading, setLoading] = useState(true);
 
-  const gg = window.pageYOffset;
-  console.log(gg);
   useEffect(() => {
     // Show the loader when the component mounts
     setLoading(true);
@@ -66,6 +65,7 @@ const Landing = () => {
               {" "}
               <Supervisor />
             </section>
+            <BackToTop />
             <Footer />
           </main>
         </>
