@@ -10,12 +10,12 @@
   top: 0;
   z-index: 100;
   .logo-wrapper {
-    font-size: 28px;
+    font-size: 17px;
     color: white;
     display: flex;
     font-weight: 500;
     gap: 0.5rem;
-
+    padding: 5px 0;
     .line {
       margin-top: -2px;
       color: #32c732;
@@ -23,7 +23,6 @@
   }
   .nav-row {
     display: flex;
-    margin-right: 8rem;
     .nav-item {
       color: white;
       font-weight: 500;

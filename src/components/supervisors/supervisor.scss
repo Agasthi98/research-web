@@ -6,7 +6,7 @@ img {
 .profile-card {
   position: relative;
   width: 250px;
-  margin: 0 auto;
+  // margin: 0 auto;
   padding: 40px 30px 30px;
   background: #f5f5f5;
   border: 5px solid rgba(255, 255, 255, 0.7);
@@ -162,8 +162,5 @@ img {
   flex-direction: row;
   margin-top: 8rem;
   padding: 0 5rem;
-}
-
-.team-members {
-  padding: 0 445px;
+  justify-content: center;
 }
