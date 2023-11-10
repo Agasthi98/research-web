@@ -9,7 +9,6 @@ const Navbar = () => {
     e.preventDefault();
     const target = e.target.getAttribute("href");
     const location = document.querySelector(target).offsetTop;
-    const activeId = document.querySelector(target);
     // console.log(activeId.id);
     setActiveItem(item);
 
