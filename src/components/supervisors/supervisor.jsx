@@ -8,13 +8,11 @@ import Twitter from "../../assets/social/twitter.png";
 import Youtube from "../../assets/social/youtube.png";
 import Instagram from "../../assets/social/instagram.png";
 import Janinda from "../../assets/img/team/janinda.jpg";
+import Member2 from "../../assets/img/team/member2.jpg";
 
 const supervisor = () => {
   return (
     <>
-      <div className="supervisor-body">
-        <div className="title">Supervisor</div>
-      </div>
       <div className="team-members">
         <div className="title" style={{ color: "#1e3050" }}>
           Team Members
@@ -64,8 +62,8 @@ const supervisor = () => {
           <aside class="profile-card">
             <div class="mask-shadow"></div>
             <header>
-              <a href="https://tutsplus.com">
-                <img src="https://en.gravatar.com/userimage/42992842/b8e8ff24d6f1cb84bbe5c839903086bb.png?size=200" />
+              <a href="#">
+                <img src={Member2} />
               </a>
 
               <h1>ALENA STUDIO</h1>

@@ -29,4 +29,9 @@ export const links = [
     text: "Documents",
     url: "#documents",
   },
+  {
+    id: 7,
+    text: "Team",
+    url: "#supervisor",
+  },
 ];

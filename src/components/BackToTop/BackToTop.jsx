@@ -27,7 +27,7 @@ const BackToTopButton = () => {
           <FaArrowAltCircleUp
             style={{
               position: "fixed",
-              bottom: "50px",
+              bottom: "66px",
               right: "50px",
               height: "40px",
               width: "40px",
