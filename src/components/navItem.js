@@ -19,11 +19,7 @@ export const links = [
     text: "Technologies",
     url: "#technologies",
   },
-  {
-    id: 5,
-    text: "TimeLine",
-    url: "#timeline",
-  },
+
   {
     id: 6,
     text: "Documents",

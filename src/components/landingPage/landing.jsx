@@ -53,10 +53,10 @@ const Landing = () => {
               <Technologies />
             </section>
 
-            <section className="timeline" id="timeline">
+            {/* <section className="timeline" id="timeline">
               {" "}
               <TimeLine />
-            </section>
+            </section> */}
             <section className="documents" id="documents">
               {" "}
               <Documents />
