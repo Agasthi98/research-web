@@ -6,43 +6,40 @@ import { Chrono } from "react-chrono";
 const Timeline = () => {
   const items = [
     {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
-      cardSubtitle:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
+      title: "2023 Januaray",
+      cardTitle: "Topic Assesment submission",
     },
     {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
-      cardSubtitle:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
+      title: "2023 February",
+      cardTitle: "Charter Document submission",
     },
     {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
-      //   url: "http://www.history.com",
-      cardSubtitle:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
-      //   media: {
-      //     type: "IMAGE",
-      //     source: {
-      //       url: "http://someurl/image.jpg",
-      //     },
-      //   },
+      title: "2023 March",
+      cardTitle: "Praposal Presentation",
     },
     {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
-      cardSubtitle:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
+      title: "2023 April",
+      cardTitle: "Praposal Submission",
+    },
+    {
+      title: "2023 April",
+      cardTitle: "Status Document Submission",
+    },
+    {
+      title: "2023 June",
+      cardTitle: "Progress Presentation 1",
+    },
+    {
+      title: "2023 August",
+      cardTitle: "Progress Presentation 2",
+    },
+    {
+      title: "2023 August",
+      cardTitle: "Research paper submission for ICAC",
+    },
+    {
+      title: "2023 October",
+      cardTitle: "Final presentation ",
     },
   ];
   return (
