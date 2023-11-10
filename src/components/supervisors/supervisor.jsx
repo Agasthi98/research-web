@@ -11,10 +11,17 @@ import Janinda from "../../assets/img/team/janinda.jpg";
 import Member2 from "../../assets/img/team/member2.jpg";
 import Member3 from "../../assets/img/team/member3.jpg";
 import Member4 from "../../assets/img/team/member4.jpg";
+import Panel from "../Panel/Panel";
 
 const supervisor = () => {
   return (
     <>
+      <div className="title" style={{ color: "#1e3050" }}>
+        Supervisors
+      </div>
+      <div className="panel">
+        <Panel />
+      </div>
       <div className="team-members">
         <div className="title" style={{ color: "#1e3050" }}>
           Team Members
@@ -31,11 +38,11 @@ const supervisor = () => {
             </header>
 
             <div class="profile-bio">
-              <p>
+              {/* <p>
                 "Terence is an avid reader of science fiction, especially
                 anything to do with aliens and tweed jackets. Most weekends, he
                 can be found cataloguing his collection of rodent skeletons."
-              </p>
+              </p> */}
             </div>
 
             <ul class="profile-social-links">
@@ -70,28 +77,28 @@ const supervisor = () => {
             </header>
 
             <div class="profile-bio">
-              <p>
+              {/* <p>
                 "Terence is an avid reader of science fiction, especially
                 anything to do with aliens and tweed jackets. Most weekends, he
                 can be found cataloguing his collection of rodent skeletons."
-              </p>
+              </p> */}
             </div>
 
             <ul class="profile-social-links">
               <li>
-                <a href="https://twitter.com/tutsplus">
+                <a href="#">
                   <img src={Facebook} />
                 </a>
               </li>
 
               <li>
-                <a href="https://envato.com">
+                <a href="#">
                   <img src={LinkedIn} />
                 </a>
               </li>
 
               <li>
-                <a href="https://codepen.io/tutsplus">
+                <a href="#">
                   <img src={Twitter} />
                 </a>
               </li>
@@ -109,28 +116,28 @@ const supervisor = () => {
             </header>
 
             <div class="profile-bio">
-              <p>
+              {/* <p>
                 "Terence is an avid reader of science fiction, especially
                 anything to do with aliens and tweed jackets. Most weekends, he
                 can be found cataloguing his collection of rodent skeletons."
-              </p>
+              </p> */}
             </div>
 
             <ul class="profile-social-links">
               <li>
-                <a href="https://twitter.com/tutsplus">
+                <a href="#">
                   <img src={Facebook} />
                 </a>
               </li>
 
               <li>
-                <a href="https://envato.com">
+                <a href="#">
                   <img src={LinkedIn} />
                 </a>
               </li>
 
               <li>
-                <a href="https://codepen.io/tutsplus">
+                <a href="#">
                   <img src={Instagram} />
                 </a>
               </li>
@@ -148,28 +155,28 @@ const supervisor = () => {
             </header>
 
             <div class="profile-bio">
-              <p>
+              {/* <p>
                 "Terence is an avid reader of science fiction, especially
                 anything to do with aliens and tweed jackets. Most weekends, he
                 can be found cataloguing his collection of rodent skeletons."
-              </p>
+              </p> */}
             </div>
 
             <ul class="profile-social-links">
               <li>
-                <a href="https://twitter.com/tutsplus">
+                <a href="#">
                   <img src={Facebook} />
                 </a>
               </li>
 
               <li>
-                <a href="https://envato.com">
+                <a href="#">
                   <img src={LinkedIn} />
                 </a>
               </li>
 
               <li>
-                <a href="https://codepen.io/tutsplus">
+                <a href="#">
                   <img src={Youtube} />
                 </a>
               </li>
