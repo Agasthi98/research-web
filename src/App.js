@@ -1,4 +1,5 @@
 import * as React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Link, Route, Router } from "react-router-dom";
 import "./App.css";
 import LandingPage from "./components/landingPage/landing";

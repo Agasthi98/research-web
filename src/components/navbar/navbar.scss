@@ -3,14 +3,23 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 3rem;
-  background-color: #1e3050;
+  background-color: #242d66;
   position: fixed;
   width: 100%;
   overflow: hidden;
   top: 0;
   z-index: 100;
-  .logo {
+  .logo-wrapper {
+    font-size: 28px;
     color: white;
+    display: flex;
+    font-weight: 500;
+    gap: 0.5rem;
+
+    .line {
+      margin-top: -2px;
+      color: #32c732;
+    }
   }
   .nav-row {
     display: flex;
@@ -30,12 +39,12 @@
   margin-right: 10px;
 
   &:hover {
-    color: yellow;
+    color: #32c732;
     text-decoration: auto;
   }
 }
 
 .active {
-  color: yellow;
-  border-bottom: 2px solid yellow; /* Customize the active item underline here */
+  color: #32c732;
+  border-bottom: 2px solid #32c732; /* Customize the active item underline here */
 }

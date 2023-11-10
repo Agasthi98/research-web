@@ -22,7 +22,11 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <h1 className="logo">Research | 2023</h1>
+        <div className="logo-wrapper">
+          <div className="logo">Research </div>
+          <div className="line">|</div>
+          <div className="year">2023-001</div>
+        </div>
         <div className="nav-row">
           {links.map((link) => {
             return (
