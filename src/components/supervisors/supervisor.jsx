@@ -9,6 +9,8 @@ import Youtube from "../../assets/social/youtube.png";
 import Instagram from "../../assets/social/instagram.png";
 import Janinda from "../../assets/img/team/janinda.jpg";
 import Member2 from "../../assets/img/team/member2.jpg";
+import Member3 from "../../assets/img/team/member3.jpg";
+import Member4 from "../../assets/img/team/member4.jpg";
 
 const supervisor = () => {
   return (
@@ -26,8 +28,6 @@ const supervisor = () => {
               </a>
 
               <h1>Janinda Induwara</h1>
-
-              <h2>WEB Developer</h2>
             </header>
 
             <div class="profile-bio">
@@ -67,8 +67,6 @@ const supervisor = () => {
               </a>
 
               <h1>ALENA STUDIO</h1>
-
-              <h2>WEB DESIGNER</h2>
             </header>
 
             <div class="profile-bio">
@@ -103,13 +101,11 @@ const supervisor = () => {
           <aside class="profile-card">
             <div class="mask-shadow"></div>
             <header>
-              <a href="https://tutsplus.com">
-                <img src="https://en.gravatar.com/userimage/42992842/b8e8ff24d6f1cb84bbe5c839903086bb.png?size=200" />
+              <a href="#">
+                <img src={Member3} />
               </a>
 
               <h1>ALENA STUDIO</h1>
-
-              <h2>WEB DESIGNER</h2>
             </header>
 
             <div class="profile-bio">
@@ -144,13 +140,11 @@ const supervisor = () => {
           <aside class="profile-card">
             <div class="mask-shadow"></div>
             <header>
-              <a href="https://tutsplus.com">
-                <img src="https://en.gravatar.com/userimage/42992842/b8e8ff24d6f1cb84bbe5c839903086bb.png?size=200" />
+              <a href="#">
+                <img src={Member4} />
               </a>
 
               <h1>ALENA STUDIO</h1>
-
-              <h2>WEB DESIGNER</h2>
             </header>
 
             <div class="profile-bio">

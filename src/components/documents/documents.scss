@@ -10,11 +10,13 @@
   }
   .document-body {
     .document-wrapper {
+      padding: 0 10rem;
       .doc-items {
+        margin-top: 2rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        height: 40vh;
+        height: 34vh;
         align-items: center;
         padding: 0 16rem;
         .row {
