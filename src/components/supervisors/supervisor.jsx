@@ -1,13 +1,11 @@
 import React from "react";
 import "./supervisor.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faFileLines } from "@fortawesome/free-brands-svg-icons";
 import Facebook from "../../assets/social/fb.png";
 import LinkedIn from "../../assets/social/linkedin.png";
 import Twitter from "../../assets/social/twitter.png";
 import Youtube from "../../assets/social/youtube.png";
 import Instagram from "../../assets/social/instagram.png";
-import Janinda from "../../assets/img/team/janinda.jpg";
+import mm5 from "../../assets/img/team/mm5.jpg";
 import Member2 from "../../assets/img/team/member2.jpg";
 import Member3 from "../../assets/img/team/member3.jpg";
 import Member4 from "../../assets/img/team/member4.jpg";
@@ -31,7 +29,7 @@ const supervisor = () => {
             <div class="mask-shadow"></div>
             <header>
               <a href="#">
-                <img src={Janinda} />
+                <img src={mm5} />
               </a>
 
               <h1>Janinda Induwara</h1>
