@@ -32,7 +32,7 @@ const supervisor = () => {
                 <img src={mm5} />
               </a>
 
-              <h1>Janinda Induwara</h1>
+              <h1>Janinda Kirindigoda</h1>
             </header>
 
             <div class="profile-bio">
@@ -71,7 +71,7 @@ const supervisor = () => {
                 <img src={Member2} />
               </a>
 
-              <h1>ALENA STUDIO</h1>
+              <h1>Kavindu Rathnayake</h1>
             </header>
 
             <div class="profile-bio">
@@ -110,7 +110,7 @@ const supervisor = () => {
                 <img src={Member3} />
               </a>
 
-              <h1>ALENA STUDIO</h1>
+              <h1>Shenita Alexander</h1>
             </header>
 
             <div class="profile-bio">
@@ -149,7 +149,7 @@ const supervisor = () => {
                 <img src={Member4} />
               </a>
 
-              <h1>ALENA STUDIO</h1>
+              <h1>Ravindu  Dolawatta</h1>
             </header>
 
             <div class="profile-bio">
