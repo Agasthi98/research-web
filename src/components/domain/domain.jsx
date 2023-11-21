@@ -23,27 +23,34 @@ const Domain = () => {
               <div className="sec-1">LITERATURE SURVEY</div>
             </div>
 
-            <div className="text-left">
-              In the literature review, we shall investigate about different
-              existing methods of chlorophyll measurement and estimation, their
-              relative accuracies, and the equations they use. The following are
-              some of the broad categories that have been explored in research
-              studies for chlorophyll estimation.
-              <ul>
-                <li className="list">
-                  In-vitro leaf solution chemical analysis or spectrophotometry.
-                </li>
-                <li className="list">
-                  In-situ proprietary spectrophotometers.
-                </li>
-                <li className="list">
-                  Low-cost in-vitro leaf solution spectrophotometer.
-                </li>
-                <li className="list">
-                  Image Recognition and colour-based leaf chlorophyll
-                  estimation.
-                </li>
-              </ul>
+            <div className="text-left-wrapper">
+              <div className="text-left">
+                What is Leaf Phytometry?
+                <ul>
+                  <li className="list">
+                    Measuring or monitoring physiology of a leaf.
+                  </li>
+                </ul>
+              </div>
+              <div className="text-left">
+                Why Leaf Phytometry / Precision Agriculture?
+                <ul>
+                  <li className="list">
+                    Leaves reveals the health and stresses of a plants, much
+                    like how faces reveal information about humans.
+                    <br />
+                    It is a direct method of monitoring plant data compared to
+                    traditional plant sensors. Provides more accurate and
+                    broader amount of data about the plant relating to plant
+                    recource requirenments and plant stress.
+                  </li>
+                </ul>
+                <div className="text-left">
+                  Currently, Leaf Phytometry is carried out by expensive and
+                  inaccessible devices that are limited to bio-tech laboratories
+                  and is unusable for continuous monitoring.
+                </div>
+              </div>
             </div>
 
             <div className="icon-left">
@@ -52,27 +59,12 @@ const Domain = () => {
               </div>
               <div className="sec-2">RESEARCH PROBLEM</div>
             </div>
-            <div className="text-left">
-              In the research problem section, we shall discuss what exact
-              issues this research address, and the relevance of the issues and
-              why we need a solution. There are mainly three research problems
-              that we aim to address. The first one being, how to create sensors
-              for early leaf area identification and leaf thickness sensor for
-              measuring leaf thickness, and research about the efficiency of
-              these novel instruments. The second problem is to research on how
-              to control shade based on the inputs taken from above outputs
-              based on ML. The third problem is finding a solution for optimally
-              integrating leaf area and thickness measurements and shade control
-              with ICRS (Intelligent Chat-bot Recommendation System) for a
-              highly accurate and valuable set of outputs for farmers / agro
-              stakeholders. Unlike conventional output i.e., a set of
-              pre-defined parameters on a UI, in (agricultural/other) monitoring
-              applications such as these, ICRS technology is revolutionizing
-              norms and breaks the limits of conventional UIs by providing users
-              the capability to ask questions and resolving their doubts without
-              limiting themselves for a few outputs on a UI. And ICRS attempts
-              to provide one of the most accurate results based on data
-              available to it.
+            <div className="text-left-problem">
+              How to harness the potential of leaf phytometry, for Agri-IoT, for
+              continuous logging and monitoring, be performed with less human
+              intervention, lower cost, and higher efficiency, to optimize crop
+              production and resource use in a background of growing population
+              and limited agricultural resources?
             </div>
           </div>
           <div className="d-right-side">
@@ -80,44 +72,22 @@ const Domain = () => {
               <div className="icon-wrapper">
                 <FontAwesomeIcon icon={faBolt} style={{ color: "#ffffff" }} />
               </div>
-              <div className="sec-1">RESEARCH GAP</div>
+              <div className="sec-1">RESEARCH OUTCOMES</div>
             </div>
-            <div className="text-right">
-              There are several research gaps that has been identified within
-              this component, and they will be tabulated below. Each aspect
-              shall be explained thoroughly.
-              <ul>
-                <li>
-                  Leaf Chlorophyll and Nitrogen estimation method/calculation.
-                </li>
-                <li>
-                  Low-cost and convenient leaf chlorophyll estimation device.
-                </li>
-                <li>
-                  Low-cost and convenient plant nitrogen (N) estimation method.
-                </li>
-                <li>
-                  Integration of chlorophyll level and plant nitrogen status
-                  with Weather Data.
-                </li>
-                <li>
-                  Realtime monitoring of leaf quality parameters and plant
-                  health.
-                </li>
-                <li>
-                  Obtain Plant Health Assessment (PHA) information over
-                  duration.
-                </li>
-                <li>
-                  Obtain ML-based suggestions on improving chlorophyll and leaf
-                  quality.
-                </li>
-                <li>Obtain ML-based recommendations on improving yield.</li>
-                <li>
-                  Obtain ML-based advice on efficient application of N
-                  fertilizer.
-                </li>
-              </ul>
+            <div className="text-right-outcome">
+              Four-leaf clips were created and they proved to be simple,
+              low-cost, yet highly effective methods to measure plant quality
+              and health continuously, and as accurate alternatives for
+              traditional agricultural IoT sensors that just measured
+              environmental variables.
+              <br />
+              The system estimates leaf thickness, leaf nitrogen, leaf
+              chlorophyll, leaf capacitance and leaf temperature as accurate
+              relative measurements and semi-accurate estimations. <br />
+              The system provides real time plant data through the web and the
+              smartphone app. Ultimately a neural network based machine learning
+              model classifies plant stress based on data from the above leaf
+              clips
             </div>
 
             <div className="icon-right">
@@ -127,51 +97,15 @@ const Domain = () => {
               <div className="sec-2">RESEARCH OBJECTIVES</div>
             </div>
             <div className="text-right">
-              <div className="objective-group">Group Objectives</div>
-              <p>The following are our group objectives,</p>
               <ul>
                 <li>
-                  To use different methods to measure and estimate plant health
-                  and stress indicators such as diseases, chlorophyll and water
-                  status for Brassica sp.
+                  Explore methods to monitor plant data with more accuracy
                 </li>
                 <li>
-                  To compare the results obtained from the methods with existing
-                  data or literature to verify the quality and accuracy of the
-                  sensors and models.
+                  How to replicate those accurate methods at a lower cost with
+                  minimum comprise of accuracy.
                 </li>
-                <li>
-                  To integrate the results obtained from the methods with other
-                  parameters of the system in a chatbot recommendation system
-                  that can provide timely and relevant advice to the users.
-                </li>
-              </ul>
-              <div className="objective-group">Component Objectives</div>
-              <ul>
-                <li>
-                  Make estimation of chlorophyll in Brassica sp. using 650nm and
-                  940nm (IR) light attenuation, with aid of precise 24 bit
-                  Analog-to-digital converted values of light intensity sensor
-                  TSL257-LF.
-                </li>
-                <li>
-                  Compare above results with the given results on source paper
-                  by Kamarianakis Z and Panagiotakis S to verify quality of the
-                  created the sensor.
-                </li>
-                <li>
-                  Use estimation of chlorophyll to identify health status of
-                  plant.
-                </li>
-                <li>
-                  Use estimation of chlorophyll to speculate whether plant is
-                  facing a disease.
-                </li>
-                <li>
-                  Use chlorophyll estimations in chatbot recommendation system
-                  to integrate with other parameters of the research to obtain
-                  profound results and alerts.
-                </li>
+                <li>How to estimate plant stress via machine learning?</li>
               </ul>
             </div>
           </div>
